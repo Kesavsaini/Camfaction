@@ -1,0 +1,36 @@
+.aboutmebox{
+    -webkit-box-shadow: 10px 3px 8px 5px rgba(0,0,0,0.41); 
+box-shadow: 10px 3px 8px 5px rgba(0,0,0,0.41);
+background-color: #6f00bb;
+    width: 20vw;
+    margin: 13px;
+    border-radius: 15px;
+    .profile{
+        width: 20vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 5px;
+         
+        h2{
+            margin-top: 8px;
+        }
+        img{
+            height: 100px;
+            border-radius: 50%;
+        }
+    
+    }
+    .com{
+        margin: 7px;
+        h3{
+            margin-top: 15px;
+        }
+        .showmore{
+            display: flex;
+            align-items: center;
+            margin: 8px;
+        }
+    }
+}
