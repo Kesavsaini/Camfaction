@@ -1,7 +1,8 @@
 .aboutmebox{
     -webkit-box-shadow: 10px 3px 8px 5px rgba(0,0,0,0.41); 
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 box-shadow: 10px 3px 8px 5px rgba(0,0,0,0.41);
-background-color: #6f00bb;
+background-color:#4d0180;
     width: 20vw;
     margin: 13px;
     border-radius: 15px;
@@ -15,6 +16,7 @@ background-color: #6f00bb;
          
         h2{
             margin-top: 8px;
+            font-weight: 100;
         }
         img{
             height: 100px;
@@ -26,6 +28,7 @@ background-color: #6f00bb;
         margin: 7px;
         h3{
             margin-top: 15px;
+            font-weight: bold;
         }
         .showmore{
             display: flex;

@@ -12,10 +12,10 @@ const Aboutmebox=()=>{
           </div>
           <div className="com">
               <h3>Communities</h3>
-              <Comcomp/>
-              <Comcomp/>
-              <Comcomp/>
-              <Comcomp/>
+              <Comcomp commname="Sports Community"/>
+              <Comcomp commname="Dance Community"/>
+              <Comcomp commname="coding Community"/>
+              <Comcomp commname="keshav Community"/>
               <div className="showmore">
                 <KeyboardArrowDownIcon/>
                 <span>Show more</span>
