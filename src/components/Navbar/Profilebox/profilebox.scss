@@ -1,0 +1,33 @@
+.profilebox{
+    background-color:black;
+    position:absolute;
+    width: 200px;
+    padding:10px;
+    border-radius: 10px;
+    top:56px;
+    right: -2px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    .prof{
+        display: flex;
+        align-items: center;
+        .info{
+            margin-left: 4px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    .elements{
+        margin-top:15px;
+        .ele{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            span{
+                margin: 4px;
+            }
+        }
+    }
+
+}
+
+
