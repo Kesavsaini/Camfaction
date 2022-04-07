@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Navbar.scss";
+import Profilebox from "./Profilebox/Profilebox";
 import {Search,ChatBubble,PeopleAlt,Notifications} from '@material-ui/icons';
 const Navbar=()=>{
+    const [dis,setdis]=useState({display:"none"});
+    const showbox=()=>{
+        if(dis.display==="none") setdis({display:"block"});
+        else setdis({display:"none"})
+    }
     return (
         <>
          <div className="navbar">
@@ -12,7 +18,7 @@ const Navbar=()=>{
                  </span>
                  <span className="search navitem">
                      <span className="inp">
-                     <input type="text" placeholder="  Search"/>
+                     <input type="text" placeholder="Search"/>
                      <Search/>
                      </span>
                  </span>
@@ -26,7 +32,15 @@ const Navbar=()=>{
                  <div className="icon"><Notifications style={{ fontSize: 33 }}/>
                  <span className="notno dot"></span>
                  </div>
-                 <img src="https://www.w3schools.com/howto/img_avatar.png" />
+                 <div className="profile">
+                     <div className="faceblock" onClick={()=>showbox()}>
+                     <img src="https://www.w3schools.com/howto/img_avatar.png" />
+                     </div>
+                 <div className="profclickbox" style={dis}>
+                    <Profilebox/>
+                 </div>
+                 </div>
+                 
              </div>
          </div>
         </>
