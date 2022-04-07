@@ -2,7 +2,7 @@ import React from "react";
 import "./Homepage.scss"
 import Navbar from "../../components/Navbar/Navbar";
 import Aboutmebox from "../../components/Aboutmebox/Aboutme";
-
+import Post from "../../components/Post/Post";
 import NavButton from "../../components/NavButtons/NavButton";
 
 const Homepage=()=>{
@@ -14,14 +14,11 @@ const Homepage=()=>{
      <Aboutmebox/>
      <div className="midpage">
      <NavButton/>
-
-     
-     </div>
-     </div>
+     <Post/>  
      </div>
      
-    
-
+     </div>
+     </div>
      </>
     );
 }
