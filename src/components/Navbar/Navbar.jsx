@@ -2,11 +2,17 @@ import React, { useState } from "react";
 import "./Navbar.scss";
 import Profilebox from "./Profilebox/Profilebox";
 import {Search,ChatBubble,PeopleAlt,Notifications} from '@material-ui/icons';
+import Messegbox from "./Messegbox/Messegbox";
 const Navbar=()=>{
     const [dis,setdis]=useState({display:"none"});
     const showbox=()=>{
         if(dis.display==="none") setdis({display:"block"});
         else setdis({display:"none"})
+    }
+    const [dischat,setdischat]=useState({display:"none"});
+    const showchatbox=()=>{
+        if(dischat.display==="none") setdischat({display:"block"});
+        else setdischat({display:"none"})
     }
     return (
         <>
@@ -25,10 +31,15 @@ const Navbar=()=>{
              </div>
              <div className="right">
                  <div className="icon"><PeopleAlt style={{ fontSize: 33 }}/></div>
-                 <div className="icon">
+                 <div className="icon chat" onClick={()=>showchatbox()}>
+                     <div className="chaticon">
                      <ChatBubble style={{ fontSize: 31 }}/>
                      <span className="notno">+1</span>
                      </div>
+                      <div className="chatbox" style={dischat}>
+                     <Messegbox/>
+                     </div>
+                    </div>
                  <div className="icon"><Notifications style={{ fontSize: 33 }}/>
                  <span className="notno dot"></span>
                  </div>

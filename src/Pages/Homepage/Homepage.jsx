@@ -14,7 +14,12 @@ const Homepage=()=>{
      <Aboutmebox/>
      <div className="midpage">
      <NavButton/>
-     <Post/>  
+     <Post/> 
+     <Post/> 
+     <Post/> 
+     <Post/> 
+     <Post/> 
+     <Post/> 
      </div>
      
      </div>

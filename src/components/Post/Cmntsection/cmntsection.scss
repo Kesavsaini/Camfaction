@@ -1,0 +1,28 @@
+.cmntsection{
+    padding: 5px;
+    margin: 20px;
+    width:600px;
+   background-color:rgb(226, 226, 226);
+    border-radius: 5px;
+    .wrap{
+        display: flex;
+        align-items: center;
+    .prof{
+        display: flex;
+        align-items: center;
+        margin-left: 8px;
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+        }
+        p{
+            margin-left:4px;
+            font-weight: bold;
+        }
+    }
+}
+    .cmnt{
+        margin:5px;
+    }
+}
