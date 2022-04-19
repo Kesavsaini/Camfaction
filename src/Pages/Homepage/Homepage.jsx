@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Aboutmebox from "../../components/Aboutmebox/Aboutme";
 import Post from "../../components/Post/Post";
 import NavButton from "../../components/NavButtons/NavButton";
+import Infobox from "../../components/Infobox/Infobox";
 
 const Homepage=()=>{
     return(
@@ -14,10 +15,20 @@ const Homepage=()=>{
      <Aboutmebox/>
      <div className="midpage">
      <NavButton/>
-     <Post/>  
+<<<<<<< HEAD
+     <Post/>
+     </div>
+     <Infobox/> 
+=======
+     <Post/> 
+     <Post/> 
+     <Post/> 
+     <Post/> 
+     <Post/> 
+     <Post/> 
+>>>>>>> 44547146112370f98921064d2c7629a3d474a06d
      </div>
      
-     </div>
      </div>
      </>
     );

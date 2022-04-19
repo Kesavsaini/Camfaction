@@ -1,5 +1,10 @@
 
 .post{
+<<<<<<< HEAD
+    // background-color: white;
+=======
+    margin-top:30px;
+>>>>>>> 44547146112370f98921064d2c7629a3d474a06d
     position: relative;
     color: black;
     // background-color: RED;
@@ -11,8 +16,9 @@
     // -webkit-box-shadow: -8px -5px 20px -5px rgba(0,0,0,0.75);
     // -moz-box-shadow: -8px -5px 20px -5px rgba(0,0,0,0.75);
     border-radius: 10px;
-    margin-left: 73px;
-    height: 490px;
+    margin-left: 73px;  
+    width: 700px;
+    .wrap{
     .avtar{ 
         display: flex;
         // justify-content: center;
@@ -46,24 +52,27 @@
             margin-left: 30px;
             color: black;
         }
-
-        .vote{
-            font-size: 20px;
-            color: black;
-        }
-        
     }
     .symbols{
         display: flex;
         position: absolute;
         right: 14px;
-        bottom: 8px;
         cursor: pointer;
-        
         .posticons{
             margin: 2px;
+            &.sendicon{
+                position: relative;
+                .sendbox{
+                    position:absolute;
+                    right: -20px;
+                }
+            }
         }
         
 }
+    }
+    .cmntsec{
+        margin-top:50px;
+    }
     
 }
