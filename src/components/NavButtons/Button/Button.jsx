@@ -11,4 +11,4 @@ const Button=(prop)=>{
         </>
     )
 }
-export default Button
+export default Button;

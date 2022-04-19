@@ -1,0 +1,13 @@
+.Sharepost{
+    box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+    -webkit-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+    -moz-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+    padding: 20px;
+    border-radius: 20px;
+    width: 150px;
+    .send{
+        display: flex;
+        align-items: center;
+        margin: 5px;
+    }
+}
