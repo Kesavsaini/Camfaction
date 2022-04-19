@@ -1,14 +1,9 @@
 import React, { useState } from "react";
 import "./post.scss"
-<<<<<<< HEAD
-import {KeyboardArrowDown,KeyboardArrowUp,Comment,Send,BookmarkBorder} from '@material-ui/icons';
-
-=======
 import Cmntsection from "./Cmntsection/Cmntsection";
 import {Comment,Send,BookmarkBorder,Bookmark} from '@material-ui/icons';
 import Vote from "./vote/Vote";
 import Sharepost from "./Sharepost/Sharepost";
->>>>>>> 44547146112370f98921064d2c7629a3d474a06d
 const Post =()=>{
     //js for showing and hiding profilebox
     const [postheigt,setpospostheigt]=useState({height: "500px"});
@@ -43,13 +38,7 @@ const Post =()=>{
             <div className="avtar">
             <img src="https://www.w3schools.com/howto/img_avatar.png" alt="" />
             <span>Anmol Garg</span>
-<<<<<<< HEAD
-            <span><b> in </b> Coders Arena <br /></span>
-            
-            
-=======
             <span><b> in </b> Coders Arena <br /></span> 
->>>>>>> 44547146112370f98921064d2c7629a3d474a06d
             </div>
             <div className="midpost">
             <Vote/>

@@ -16,17 +16,23 @@ const Homepage=()=>{
      <div className="midpage">
      <NavButton/>
 <<<<<<< HEAD
+<<<<<<< HEAD
      <Post/>
      </div>
      <Infobox/> 
 =======
+=======
+>>>>>>> 64c5f521253e839012b4cc7fa99ba6868487d8c1
      <Post/> 
      <Post/> 
      <Post/> 
      <Post/> 
      <Post/> 
      <Post/> 
+<<<<<<< HEAD
 >>>>>>> 44547146112370f98921064d2c7629a3d474a06d
+=======
+>>>>>>> 64c5f521253e839012b4cc7fa99ba6868487d8c1
      </div>
      
      </div>
