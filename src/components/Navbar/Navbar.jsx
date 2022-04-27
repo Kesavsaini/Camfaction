@@ -3,6 +3,7 @@ import "./Navbar.scss";
 import Profilebox from "./Profilebox/Profilebox";
 import {Search,ChatBubble,PeopleAlt,Notifications} from '@material-ui/icons';
 import Messegbox from "./Messegbox/Messegbox";
+import Notibox from "./Notificationbox/Notibox";
 const Navbar=()=>{
     const [dis,setdis]=useState({display:"none"});
     const showbox=()=>{
