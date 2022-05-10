@@ -1,0 +1,67 @@
+    .settingwrap{
+        display: flex;
+   
+    .leftbox {
+        width: 300px;
+        background-color: #4d0180;
+        margin-left: -40px;
+        font-size: 30px;
+        color: white;
+        border-style: solid;
+        border-color: black;
+        height: 647px;
+       
+
+        .box1 {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            padding: 20px;
+            border-style: solid;
+            border-bottom: none;
+            border-right: none;
+            border-top: none;
+            border-color: black;
+
+        }
+
+        .box2 {
+            align-items: center;
+            border-color: black;
+            justify-content: center;
+            display: flex;
+            padding: 20px;
+            border-style: solid;
+            border-right: none;
+            border-bottom: none;
+
+        }
+
+        .box3 {
+            align-items: center;
+            justify-content: center;
+            border-color: black;
+            display: flex;
+            padding: 20px;
+            width: 300px;
+            border-style: solid;
+            border-right: none;
+            border-bottom: none;
+
+        }
+
+        .box4 {
+            align-items: center;
+            justify-content: center;
+            border-color: black;
+            display: flex;
+            padding: 20px;
+            width: 300px;
+            border-style: solid;    
+        }
+    }
+}
+
+
+
+

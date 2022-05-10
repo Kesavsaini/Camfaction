@@ -7,8 +7,8 @@ const Post =()=>{
         <div className="post">
             <div className="avtar">
             <img src="https://www.w3schools.com/howto/img_avatar.png" alt="" />
-            <span>Anmol Garg</span>
-            <span><b> in </b> Coders Arena <br /></span>
+            <span>Abhishek </span>
+            <span><b>  in </b> Coders Arena <br /></span>
             
             </div>
             <div className="midpost">

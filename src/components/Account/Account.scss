@@ -1,0 +1,31 @@
+.account{
+    // position: relative;
+    .btns{
+        display: flex;
+        flex-direction: column;
+        button{
+            box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+            -webkit-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+            -moz-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+            background-image: linear-gradient(to right, rgba(156, 62, 219, 0), rgb(174, 0, 255));
+             padding: 15px;
+             width: 250px;
+             font-size: 20px;
+             background-color:#4d0180;
+             border-radius: 20px;
+             border: none;
+             margin: 30px;
+             color: white;
+             &:hover{
+                background-image: linear-gradient(to right, rgb(174, 0, 255),rgba(125, 31, 187, 0));
+             }
+             cursor: pointer;
+        }
+    }
+    a{
+        margin-top: 41px;
+        position: absolute;
+        font-weight: bold;
+        right: 39.5%;
+    }
+}
