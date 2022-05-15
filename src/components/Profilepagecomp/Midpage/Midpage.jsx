@@ -9,8 +9,7 @@ const Midpage=()=>{
             <Post/>
             <Post/>
             <Post/>
-            <Post/>
-            
+            <Post/> 
         </div>
     </div>
     </>

@@ -9,10 +9,8 @@ const NavButton=()=>{
         <Button text="Photos"/>
         <Button text="videos"/>
         <Button text="Event"/>
-
-        </div>
-        
+        </div>    
         </>
     )
 }
-export default NavButton
+export default NavButton;

@@ -74,6 +74,9 @@ const Post = () => {
                     </div>
                 </div>
                 <div className="cmntsec" style={cmntdis}>
+                        <div className="addcmnt">
+                        <input type="text" placeholder="Type your comment" />
+                        </div>
                     <Cmntsection />
                     <Cmntsection />
                     <Cmntsection />

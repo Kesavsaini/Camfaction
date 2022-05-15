@@ -21,7 +21,8 @@ const Navbar=()=>{
              <div className="left">
                  <span className="navitem">
                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/CF_Athletic_Logo-01-01_%283%29.png" alt="" />
-                 {/* <img src={require('./CamFaction.png')} alt="" /> */}
+                 {/* <img src={require('./CamFaction.png')} alt="" />
+                 <img src={require('./cf logo.png')} alt="" /> */}
                  <h1>CamFaction</h1>
                  </span>
                  <span className="search navitem">
