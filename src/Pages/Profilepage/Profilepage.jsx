@@ -1,7 +1,7 @@
 import React from "react";
-import Midpage from "../../../components/Profilepagecomp/Midpage/Midpage";
-import Rightpage from "../../../components/Profilepagecomp/Rightpage/Rightpage";
-import Toppage from "../../../components/Profilepagecomp/Toppage/Toppage";
+import Midpage from "../../components/Profilepagecomp/Midpage/Midpage";
+import Rightpage from "../../components/Profilepagecomp/Rightpage/Rightpage";
+import Toppage from "../../components/Profilepagecomp/Toppage/Toppage";
 import "./Profilepage.scss"
 
 const Profilepage = () => {

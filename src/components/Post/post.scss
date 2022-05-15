@@ -2,15 +2,17 @@
     margin-top:30px;
     position: relative;
     color: black;
-    background-color: white;
+    // background-color: RED;
     // border: 2px solid #4d0180 ;
     box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
     -webkit-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
     -moz-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+    // box-shadow: -8px -5px 20px -5px rgba(0,0,0,0.75);
+    // -webkit-box-shadow: -8px -5px 20px -5px rgba(0,0,0,0.75);
+    // -moz-box-shadow: -8px -5px 20px -5px rgba(0,0,0,0.75);
     border-radius: 10px;
     margin-left: 73px;  
     width: 700px;
-    // height: 550px;
     .wrap{
     .avtar{ 
         display: flex;
@@ -18,7 +20,7 @@
         margin: 10px;
         align-items: center;
         color: black;
-        cursor: pointer;
+        
         span{
             margin-left: 13px;
             
@@ -26,7 +28,6 @@
                 color: black;
                 margin-left: -9px;
             }
-            
         }
         img{
             width: 50px;
@@ -62,16 +63,11 @@
                 }
             }
         }
+        
 }
     }
     .cmntsec{
         margin-top:50px;
-        .addcmnt{
-            input{
-                width: 500px;
-                margin-left: 20px;
-                height: 25px;
-            }
-        }
     }
+    
 }
