@@ -13,7 +13,7 @@ import Privacy from "./components/Privacy/Privacy";
 const App=()=>{
   return(
     <>
-    <Password/>
+    <Homepage/>
     </>
   )
 }
