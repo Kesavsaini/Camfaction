@@ -5,7 +5,8 @@ const Messegbox=()=>{
   return(
     <>
     <div className="messegbox">
-    <h3>Chats</h3>
+    <h3 className="chathead">Chats</h3>
+    <Chatcom/>
     <Chatcom/>
     <Chatcom/>
     <Chatcom/>

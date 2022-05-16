@@ -1,0 +1,16 @@
+.convocomp{
+    display: flex;
+    .msgwrapper{
+    margin: 10px;
+    .mainmsg{
+        max-width: 600px;
+        background-color: #750eb9;
+        padding: 10px;
+        border-radius: 15px;
+        color: white;
+    }
+    .time{
+        margin: 4px;
+    }
+}
+}
