@@ -37,8 +37,7 @@ const Post =()=>{
             <div className="wrap">
             <div className="avtar">
             <img src="https://www.w3schools.com/howto/img_avatar.png" alt="" />
-            <span>Anmol Garg</span>
-            <span><b> in </b> Coders Arena <br /></span> 
+
             </div>
             <div className="midpost">
             <Vote/>

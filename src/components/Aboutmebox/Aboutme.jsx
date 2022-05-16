@@ -7,8 +7,8 @@ const Aboutmebox=()=>{
      <>
       <div className="aboutmebox">
           <div className="profile">
-          <img src={require('./yash.jpg')} />
-          <h2>Yash Pokharna</h2>
+          <img src="https://www.w3schools.com/howto/img_avatar.png" />
+          <h2>Team CamF</h2>
           </div>
           <div className="com">
               <h3>Communities</h3>
