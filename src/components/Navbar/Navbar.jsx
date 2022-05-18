@@ -1,7 +1,39 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.scss";
+import Profilebox from "./Profilebox/Profilebox";
 import {Search,ChatBubble,PeopleAlt,Notifications} from '@material-ui/icons';
+import Messegbox from "./Messegbox/Messegbox";
 const Navbar=()=>{
+    const [dis,setdis]=useState({display:"none"});
+    const showbox=()=>{
+        if(dis.display==="none") setdis({display:"block"});
+        else setdis({display:"none"})
+    }
+    const [dischat,setdischat]=useState({display:"none"});
+    const showchatbox=()=>{
+        if(dischat.display==="none") setdischat({display:"block"});
+        else setdischat({display:"none"})
+    }
+    const profbox=useRef();
+    const chatref=useRef();
+    useEffect(()=>{
+        let handler=(event)=>{
+            if(!profbox.current.contains(event.target)){
+               setdis({display:"none"});
+            }
+        }
+      document.addEventListener("mousedown",handler);
+      let handlechat=(event)=>{
+        if(!chatref.current.contains(event.target)){
+           setdischat({display:"none"});
+        }
+    }
+  document.addEventListener("mousedown",handlechat)
+  return ()=>{
+      document.removeEventListener("mousedown",handlechat);
+      document.removeEventListener("mousedown",handler);
+  }
+    });
     return (
         <>
          <div className="navbar">
@@ -12,21 +44,34 @@ const Navbar=()=>{
                  </span>
                  <span className="search navitem">
                      <span className="inp">
-                     <input type="text" placeholder="  Search"/>
+                     <input type="text" placeholder="Search"/>
                      <Search/>
                      </span>
                  </span>
              </div>
              <div className="right">
                  <div className="icon"><PeopleAlt style={{ fontSize: 33 }}/></div>
-                 <div className="icon">
+                 <div className="icon chat" onClick={()=>showchatbox()}>
+                     <div className="chaticon">
                      <ChatBubble style={{ fontSize: 31 }}/>
                      <span className="notno">+1</span>
                      </div>
+                      <div className="chatbox" ref={chatref} style={dischat}>
+                     <Messegbox/>
+                     </div>
+                    </div>
                  <div className="icon"><Notifications style={{ fontSize: 33 }}/>
                  <span className="notno dot"></span>
                  </div>
-                 <img src="https://www.w3schools.com/howto/img_avatar.png" />
+                 <div className="profile">
+                     <div className="faceblock" onClick={()=>showbox()}>
+                     <img src="https://www.w3schools.com/howto/img_avatar.png" />
+                     </div>
+                 <div ref={profbox} className="profclickbox" style={dis}>
+                    <Profilebox/>
+                 </div>
+                 </div>
+                 
              </div>
          </div>
         </>

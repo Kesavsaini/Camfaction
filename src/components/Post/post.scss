@@ -1,0 +1,69 @@
+.post{
+    margin-top:30px;
+    position: relative;
+    color: black;
+    // background-color: RED;
+    // border: 2px solid #4d0180 ;
+    box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+    -webkit-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+    -moz-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
+    border-radius: 10px;
+    .avtar{ 
+        display: flex;
+        // justify-content: center;
+        margin: 10px;
+        align-items: center;
+        color: black;
+        
+        span{
+            margin-left: 13px;
+            
+            b{
+                color: black;
+                margin-left: -9px;
+            }
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            color: black;
+            // margin-top: 5px;
+        }
+    }
+    .midpost{
+        display: flex;
+        margin: 10px;
+        padding: 5px;
+        color: black;
+
+        .details{
+            margin-left: 30px;
+            color: black;
+            
+                    
+        }
+    }
+    .symbols{
+        display: flex;
+        position: absolute;
+        right: 14px;
+        cursor: pointer;
+        .posticons{
+            margin: 2px;
+            &.sendicon{
+                position: relative;
+                .sendbox{
+                    position:absolute;
+                    right: -20px;
+                }
+            }
+        }
+        
+}
+    
+.cmntsec{
+        margin-top:50px;
+}
+}
+

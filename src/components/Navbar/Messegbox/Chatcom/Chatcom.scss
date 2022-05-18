@@ -1,0 +1,21 @@
+.chatcom{
+    margin-top: 10px;
+    border-bottom: white 2px solid;
+    padding: 4px;
+    .chatprofbox{
+        display: flex;
+        width:max-content;
+        img{
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+        }
+        .nameandmsg{
+            margin-left:10px;
+        p{
+            font-weight:bold;
+        }
+    }
+        
+    }
+}
