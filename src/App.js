@@ -10,16 +10,17 @@ import PushNotifications from "./components/Push_Notifications/PushNotifications
 import Privacy from "./components/Settingpagecomp/Privacy/Privacy";
 import Profilepage from "./Pages/Profilepage/Profilepage";
 import Auth from "./Pages/Authentication/Auth";
+import Chatpage from "./Pages/Chatpage/Chatpage";
+
 
 
 const App=()=>{
   return(
     <>
-    {/* <Profilepage/> */}
-    {/* <Homepage/> */}
-    {/* <Authpage/> */}
+   
     <Settings/>
     </>
+  
   )
 }
 export default App;

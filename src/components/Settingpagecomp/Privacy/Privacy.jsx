@@ -5,7 +5,7 @@ const Privacy = () => {
     return (
         <>
 
-            <div className="section22">
+            <div className="section4">
             <div className="visibility">
                     <div className="s1">
                      <b>Profile Visibilty:</b>

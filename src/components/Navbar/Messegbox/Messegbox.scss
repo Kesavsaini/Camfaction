@@ -1,5 +1,5 @@
 .messegbox{
-    background-color:black;
+    background-color:#420869;
     position: absolute;
     overflow: auto;
     right: 5px;  
@@ -9,9 +9,10 @@
     -moz-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
     padding: 18px;  
     border-radius: 10px;
-    background-image: linear-gradient(to right, rgba(114, 13, 139, 0), rgb(77, 5, 83));
-        &:hover{
-            background-image: linear-gradient(to left, rgba(45, 10, 54, 0), rgb(30, 18, 31));
-        }
+    .chathead{
+        position:absolute;
+        top: 0px;
+    }
+
     
 }

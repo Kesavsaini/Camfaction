@@ -14,15 +14,16 @@ const Aboutmebox=()=>{
               <h3>Communities</h3>
               <Comcomp commname="Sports Community"/>
               <Comcomp commname="Dance Community"/>
-              <Comcomp commname="coding Community"/>
-              <Comcomp commname="keshav Community"/>
+              <Comcomp commname="Coding Community"/>
+              <Comcomp commname="Keshav Community"/>
+              <Comcomp commname="Gaming Communinty"/>
               <div className="showmore">
                 <KeyboardArrowDownIcon/>
-                <span>Show more</span>
+                <span>Show More</span>
               </div>
           </div>
       </div>
      </>
     );
 }
-export default Aboutmebox;
+export default Aboutmebox

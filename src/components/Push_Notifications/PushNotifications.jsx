@@ -5,7 +5,7 @@ const PushNotifications = () => {
     return (
         <>
 
-            <div className="section">
+            <div className="section3">
                 <div className="updown">
                     < div className="s1">
                         <b>Upvote & Downvote:</b>

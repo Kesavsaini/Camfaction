@@ -1,4 +1,4 @@
-.section
+.section1
 {
     width: 1150px;
     height: 570px;
@@ -7,8 +7,9 @@
     border-radius: 20px;
     font-size: 26px;
     border-color:#4d0180; 
-    margin-top: 100px;
     
+    // padding-bottom: 45px;
+    margin-left: 90px;
 .name
 {
 
@@ -45,7 +46,7 @@
     justify-content: left;
     flex-direction: row;
     align-items: center;
-    margin-left: 84px;
+    margin-left: 48px;
     font-size: 26px;
     gap: 32px;
     padding-bottom: 18px;
@@ -108,7 +109,7 @@
     align-items: center;
     font-size: 26px;
     margin-bottom: 30px;
-    margin-left: 81px;
+    margin-left: 47px;
     gap: 32px;
 
 }
@@ -126,7 +127,7 @@
     align-items: center;
     font-size: 26px;
     padding-top: 22px;
-    margin-left: 81px;
+    margin-left: 47px;
     padding-bottom: 25px;
     gap: 108px;
 }   
@@ -147,7 +148,7 @@
     display: flex;
     font-size: 26px;
     gap: 40px;
-    margin-left: 81px;
+    margin-left: 47px;
     padding-bottom: 18px;
 }
 
@@ -159,8 +160,9 @@
     // margin-right: 100px;
 }
 
-.button1{
+.button2{
     margin-left: 700px;
+    
 }
 
 button{

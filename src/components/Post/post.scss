@@ -1,4 +1,5 @@
 .post{
+    margin-left: 90px;
     margin-top:30px;
     position: relative;
     color: black;
@@ -7,13 +8,7 @@
     box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
     -webkit-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
     -moz-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
-    // box-shadow: -8px -5px 20px -5px rgba(0,0,0,0.75);
-    // -webkit-box-shadow: -8px -5px 20px -5px rgba(0,0,0,0.75);
-    // -moz-box-shadow: -8px -5px 20px -5px rgba(0,0,0,0.75);
     border-radius: 10px;
-    margin-left: 73px;  
-    width: 700px;
-    .wrap{
     .avtar{ 
         display: flex;
         // justify-content: center;
@@ -46,6 +41,8 @@
         .details{
             margin-left: 30px;
             color: black;
+            
+                    
         }
     }
     .symbols{
@@ -65,9 +62,8 @@
         }
         
 }
-    }
-    .cmntsec{
-        margin-top:50px;
-    }
     
+.cmntsec{
+        margin-top:50px;
+}
 }

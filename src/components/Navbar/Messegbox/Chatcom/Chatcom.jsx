@@ -8,7 +8,7 @@ const Chatcom=()=>{
           <img src="https://mumbaimirror.indiatimes.com/photo/73980084.cms" alt="" />
            <div className="nameandmsg">
            <p>Abhishek Kumar</p>
-            <span>Hello what are you...</span>
+            <span>Hello, how are you...</span>
            </div>
            
           </div>

@@ -15,7 +15,7 @@ const Settings = () => {
               <Navbar/>
               <div className="midsetting">
                   <Left/>
-                  <Privacy/>
+                  <Profile/>
               </div>
            </div>
         </>

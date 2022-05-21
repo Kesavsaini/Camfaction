@@ -7,7 +7,7 @@ const Profile = () => {
         <>
             {/* <header>Profile</header> */}
                        
-            <div className="section">
+            <div className="section1">
             <div className="icon">
             <p>Profile Photo</p>
                 <AccountCircleIcon style={{ fontSize: "90px" }} />
@@ -308,7 +308,7 @@ const Profile = () => {
                     <option value="Zimbabwe">Zimbabwe</option>
                 </select>
                 </div>
-                <div className="button1">
+                <div className="button2">
                 <button>Save Changes</button>
                 </div>
             </div>

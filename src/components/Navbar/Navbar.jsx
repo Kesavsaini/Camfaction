@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./Navbar.scss";
 import Profilebox from "./Profilebox/Profilebox";
 import {Search,ChatBubble,PeopleAlt,Notifications} from '@material-ui/icons';
 import Messegbox from "./Messegbox/Messegbox";
-import Notibox from "./Notificationbox/Notibox";
 const Navbar=()=>{
     const [dis,setdis]=useState({display:"none"});
     const showbox=()=>{
@@ -15,14 +14,32 @@ const Navbar=()=>{
         if(dischat.display==="none") setdischat({display:"block"});
         else setdischat({display:"none"})
     }
+    const profbox=useRef();
+    const chatref=useRef();
+    useEffect(()=>{
+        let handler=(event)=>{
+            if(!profbox.current.contains(event.target)){
+               setdis({display:"none"});
+            }
+        }
+      document.addEventListener("mousedown",handler);
+      let handlechat=(event)=>{
+        if(!chatref.current.contains(event.target)){
+           setdischat({display:"none"});
+        }
+    }
+  document.addEventListener("mousedown",handlechat)
+  return ()=>{
+      document.removeEventListener("mousedown",handlechat);
+      document.removeEventListener("mousedown",handler);
+  }
+    });
     return (
         <>
          <div className="navbar">
              <div className="left">
                  <span className="navitem">
                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/CF_Athletic_Logo-01-01_%283%29.png" alt="" />
-                 {/* <img src={require('./CamFaction.png')} alt="" />
-                 <img src={require('./cf logo.png')} alt="" /> */}
                  <h1>CamFaction</h1>
                  </span>
                  <span className="search navitem">
@@ -39,20 +56,18 @@ const Navbar=()=>{
                      <ChatBubble style={{ fontSize: 31 }}/>
                      <span className="notno">+1</span>
                      </div>
-                      <div className="chatbox" style={dischat}>
+                      <div className="chatbox" ref={chatref} style={dischat}>
                      <Messegbox/>
                      </div>
                     </div>
                  <div className="icon"><Notifications style={{ fontSize: 33 }}/>
                  <span className="notno dot"></span>
-                
-
                  </div>
                  <div className="profile">
                      <div className="faceblock" onClick={()=>showbox()}>
                      <img src="https://www.w3schools.com/howto/img_avatar.png" />
                      </div>
-                 <div className="profclickbox" style={dis}>
+                 <div ref={profbox} className="profclickbox" style={dis}>
                     <Profilebox/>
                  </div>
                  </div>

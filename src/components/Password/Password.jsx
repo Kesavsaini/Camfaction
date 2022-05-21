@@ -6,7 +6,7 @@ const Password = () => {
     return (
         <>
 
-            <div className="section">
+            <div className="section2">
                 <div className="opassword">
                     <p>Old Password</p>
                     <input type="password" />
@@ -19,7 +19,7 @@ const Password = () => {
                     <p>Confirm Password</p>
                     <input type="password" />
                 </div>
-                <div className="button1">
+                <div className="button3">
                 <button>Save Changes</button>
                 </div>
             </div>

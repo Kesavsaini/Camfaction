@@ -1,0 +1,43 @@
+.chatpage{
+    display: flex;
+    overflow: hidden;
+    .chatlist{
+        width: 20vw;
+        height:100vh;
+        border-right: 2px solid gray;
+        background-color: #4d0180;
+        color: white;
+        position: sticky;
+        left: 0;
+        top: 0;
+        overflow-y: auto;
+        overflow-x: hidden;
+        .chattitlebox{
+            display: flex;
+            position: sticky;
+            top:0;
+            background-color: #4d0180;
+        input{
+            margin: 10px;
+            border: none;
+            outline: none;
+            border-bottom: 1px white solid;
+            background-color: #4d0180;
+            color: white;
+            &::placeholder {
+                color: rgb(255, 254, 254);
+                opacity: 1; /* Firefox */
+              }
+              
+              :-ms-input-placeholder { /* Internet Explorer 10-11 */
+               color: white;
+              }
+              
+              ::-ms-input-placeholder { /* Microsoft Edge */
+               color: white;
+              }
+        }
+    }
+      
+    }
+}

@@ -1,0 +1,35 @@
+.sendpostcom{
+    display: flex;
+    align-items: center;
+    z-index: 9999;
+    justify-content:space-between;
+    margin: 10px;
+    .sendcomprof{
+        display: flex;
+        align-items: center;
+        img{
+            width: 40px;
+            height: 40px;
+            border-radius:50%;
+        } 
+        span{
+            font-weight: bold;
+            margin: 10px;
+        }
+    }
+    .sendpostbtn{
+        button{
+            padding: 9px;
+            background-color:#4d0180;
+            color: white;
+            border: none;
+            width: 70px;
+            border-radius: 5px;
+            cursor: pointer;
+            background-image: linear-gradient(to right, rgba(114, 13, 139, 0), rgb(77, 5, 83));
+        &:hover{
+            background-image: linear-gradient(to left, rgba(45, 10, 54, 0), rgb(30, 18, 31));
+        }
+        }
+    }
+}

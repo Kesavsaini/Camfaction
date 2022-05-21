@@ -1,13 +1,13 @@
-.section
+.section3
 {
     width: 1100px;
     height: 580px;
     border-style: solid;
-    margin-left: 400px;
+    margin-left: 80px;
     border-radius: 25px;
     border-color:#4d0180;     
     font-size: 21px;
-    
+        
 
    .updown{
        flex-direction: column;
@@ -33,6 +33,10 @@
        margin-left: 150px;
    }
 
+   .button1{
+       margin-top: 50px;
+       margin-left: 650px;
+   }
    button{
     box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
     -webkit-box-shadow: 4px 8px 12px -2px rgba(73,71,71,0.75);
@@ -49,6 +53,7 @@
     &:hover{
         background-image: linear-gradient(to right, rgb(73, 0, 107),rgba(150, 35, 226, 0));
      }
+
    }
 }
 
